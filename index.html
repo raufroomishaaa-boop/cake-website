@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Crumbs | Artisan Cake Studio</title>
+    <!-- Google Fonts -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. HEADER & NAVBAR (Flexbox) -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="#" class="logo">Sweet <span>Crumbs</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Our Cakes</a></li>
+                    <li><a href="#offers">Specials</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Order Now</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 2. HERO SECTION (Flexbox) -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="tagline">Freshly Baked Everyday</span>
+                    <h1>Crafting Sweet Memories One Slice at a Time</h1>
+                    <p>Handcrafted custom cakes, rich chocolate truffles, and delicate pastries made with pure love and finest ingredients.</p>
+                    <div class="hero-buttons">
+                        <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                        <a href="#contact" class="btn btn-outline">Custom Order</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/hero-cake.jpg" alt="Delicious Chocolate Berry Cake">
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. ABOUT US SECTION (Flexbox) -->
+        <section id="about" class="about section-padding">
+            <div class="container about-container">
+                <div class="about-img">
+                    <img src="images/about-baker.jpg" alt="Our Bakery Kitchen">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">Our Sweet Story</h2>
+                    <p>Founded with a passion for baking, Sweet Crumbs brings joy to your celebrations. Whether it is a birthday, wedding, or a simple evening tea craving, we bake every cake from scratch.</p>
+                    <ul class="about-features">
+                        <li>✔ 100% Fresh & Organic Ingredients</li>
+                        <li>✔ Custom Designs for Every Occasion</li>
+                        <li>✔ Same-Day Delivery Available</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. FEATURED CAKES MENU (CSS Grid) -->
+        <section id="menu" class="menu section-padding bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Signature Cakes</h2>
+                    <p>Choose from our most loved flavors baked fresh daily</p>
+                </div>
+
+                <div class="cake-grid">
+                    <!-- Cake Card 1 -->
+                    <article class="cake-card">
+                        <img src="images/cake1.jpg" alt="Belgian Chocolate Fudge">
+                        <div class="cake-info">
+                            <h3>Belgian Chocolate Fudge</h3>
+                            <p>Rich dark chocolate sponge layered with silky ganache.</p>
+                            <div class="cake-footer">
+                                <span class="price">Rs. 2,800</span>
+                                <a href="#contact" class="btn-small">Order</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cake Card 2 -->
+                    <article class="cake-card">
+                        <img src="images/cake2.jpg" alt="Red Velvet Dream">
+                        <div class="cake-info">
+                            <h3>Red Velvet Dream</h3>
+                            <p>Classic crimson sponge topped with smooth cream cheese frosting.</p>
+                            <div class="cake-footer">
+                                <span class="price">Rs. 3,000</span>
+                                <a href="#contact" class="btn-small">Order</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cake Card 3 -->
+                    <article class="cake-card">
+                        <img src="images/cake3.jpg" alt="Strawberry Shortcake">
+                        <div class="cake-info">
+                            <h3>Fresh Strawberry Bliss</h3>
+                            <p>Light vanilla sponge with whipped cream and fresh strawberries.</p>
+                            <div class="cake-footer">
+                                <span class="price">Rs. 2,600</span>
+                                <a href="#contact" class="btn-small">Order</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cake Card 4 -->
+                    <article class="cake-card">
+                        <img src="images/cake4.jpg" alt="Lotus Biscoff Cake">
+                        <div class="cake-info">
+                            <h3>Lotus Biscoff Delight</h3>
+                            <p>Caramelized biscuit flavor infused with creamy Biscoff spread.</p>
+                            <div class="cake-footer">
+                                <span class="price">Rs. 3,400</span>
+                                <a href="#contact" class="btn-small">Order</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cake Card 5 -->
+                    <article class="cake-card">
+                        <img src="images/cake5.jpg" alt="Ferrero Rocher Crunch">
+                        <div class="cake-info">
+                            <h3>Ferrero Hazelnut Crunch</h3>
+                            <p>Roasted hazelnuts, Nutella cream, and crispy wafer layers.</p>
+                            <div class="cake-footer">
+                                <span class="price">Rs. 3,600</span>
+                                <a href="#contact" class="btn-small">Order</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cake Card 6 -->
+                    <article class="cake-card">
+                        <img src="images/cake6.jpg" alt="Lemon Blueberry Cake">
+                        <div class="cake-info">
+                            <h3>Lemon Blueberry Zest</h3>
+                            <p>Tangy lemon cake bursting with juicy blueberries and buttercream.</p>
+                            <div class="cake-footer">
+                                <span class="price">Rs. 2,900</span>
+                                <a href="#contact" class="btn-small">Order</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. SPECIAL OFFERS & SERVICES (CSS Grid) -->
+        <section id="offers" class="offers section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Why Choose Us</h2>
+                    <p>Special perks to make your celebrations even sweeter</p>
+                </div>
+
+                <div class="offers-grid">
+                    <div class="offer-box">
+                        <h3>🎂 Custom Theme Cakes</h3>
+                        <p>Share your dream design for birthdays, weddings, or bridal showers, and we will bring it to life.</p>
+                    </div>
+                    <div class="offer-box">
+                        <h3>🚚 Express Delivery</h3>
+                        <p>Safe and temperature-controlled doorstep delivery so your cake arrives in perfect shape.</p>
+                    </div>
+                    <div class="offer-box">
+                        <h3>🎁 Weekend Combo</h3>
+                        <p>Get 6 free assorted cupcakes on every 2-tier custom cake order placed this weekend.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. CUSTOMER REVIEWS (CSS Grid) -->
+        <section id="reviews" class="reviews section-padding bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Happy Customers</h2>
+                    <p>What cake lovers say about Sweet Crumbs</p>
+                </div>
+
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <p>"The Belgian Chocolate Fudge cake was super moist and not overly sweet. Everyone at the party loved it!"</p>
+                        <h4>— Ayesha Khan</h4>
+                    </div>
+                    <div class="review-card">
+                        <p>"Ordered a custom theme cake for my sister's graduation. The detailing and taste were both 10/10."</p>
+                        <h4>— Bilal Ahmed</h4>
+                    </div>
+                    <div class="review-card">
+                        <p>"Their Lotus Biscoff cake is hands down the best in town. Always fresh and delivered right on time."</p>
+                        <h4>— Sara Tariq</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. ORDER / CONTACT SECTION (Flexbox) -->
+        <section id="contact" class="contact section-padding">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <h2 class="section-title">Contact & Order Now</h2>
+                    <p>Fill out the form to book your cake or inquire about custom designs. We will confirm your order within 30 minutes.</p>
+                    <p><strong>📍 Location:</strong> Main Boulevard, Gulshan-e-Iqbal, Karachi</p>
+                    <p><strong>📞 Phone / WhatsApp:</strong> +92 300 1234567</p>
+                    <p><strong>📧 Email:</strong> orders@sweetcrumbs.pk</p>
+                    <p><strong>⏰ Timings:</strong> 10:00 AM – 11:00 PM</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Full Name" required>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <input type="tel" placeholder="Phone / WhatsApp Number" required>
+                    <select required>
+                        <option value="">Select Cake Flavor</option>
+                        <option value="chocolate">Belgian Chocolate Fudge</option>
+                        <option value="red-velvet">Red Velvet Dream</option>
+                        <option value="strawberry">Fresh Strawberry Bliss</option>
+                        <option value="lotus">Lotus Biscoff Delight</option>
+                        <option value="ferrero">Ferrero Hazelnut Crunch</option>
+                        <option value="lemon">Lemon Blueberry Zest</option>
+                        <option value="custom">Custom Theme Cake</option>
+                    </select>
+                    <textarea rows="4" placeholder="Message / Cake Weight / Delivery Date" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Order Request</button>
+                </form>
+            </div>
+        </section>
